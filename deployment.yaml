@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: my-python-app:v3
+        image: sample-devops:v1
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
